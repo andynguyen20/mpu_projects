@@ -13,4 +13,4 @@ Just Assembly programs because Vitis .gitignore is nasty.
 * [**Project 1d**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/led_cmp.S)
   *  Illuminate first LED when the value of the switches is equal to my age(20), and the second LED if all switches are ‘1’.
 * [**Project 1e**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/led_rng.S)
-  *  Illuminate leds in correspondence to range of switches treated as binary values. (0-3) -> led0 | (4-7) -> led1 | (8-11) -> led2 | (12-15) -> led3
+  *  Illuminate leds in correspondence to range of switches treated as binary values. (0-3) -> led0 | (4-7) -> led1 | (8-11) -> led2 | (12-15) -> led3 | Only one led should be on at a range
