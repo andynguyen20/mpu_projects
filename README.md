@@ -18,3 +18,6 @@ Just Assembly programs because Vitis .gitignore is nasty.
   *  Use both switches and pushbuttons to turn on leds
 * [**Project 1g**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/btn_latch.S)
   *  Treat the first 8 switches as binary values and use a a pushbutton as an enable to latch values onto led
+
+  ## Part 2
+* [**Project 2a**]
