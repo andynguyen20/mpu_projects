@@ -5,7 +5,7 @@ Just Assembly programs because Vitis .gitignore is nasty.
 
 ## Part 1
 * [**Project 1a**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p1_sw_led.S)
-  * Navigating Vitis, studying the ARM processor architecture and ARM Assembly, and then mapping switches to leds
+  * Navigating Vitis, studying the ARM processor architecture and ARM Assembly, and mapping switches to leds
 * [**Project 1b**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p2_sw_inv.S)
   *  Negate the led signals from the switches
 * [**Project 1c**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p3_btn_led.S)
@@ -20,4 +20,5 @@ Just Assembly programs because Vitis .gitignore is nasty.
   *  Treat the first 8 switches as binary values and use a a pushbutton as an enable to latch values onto led
 
   ## Part 2
-* [**Project 2a**]
+* [**Project 2a**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p1_led_ctl.S)
+  * Creating subroutines to turn on, off, and toggle LED. Using Vitis Debugger to confirm program works
