@@ -23,3 +23,9 @@ Just Assembly programs because Vitis .gitignore is nasty.
 ## Part 2
 * [**Project 2a**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p1_led_ctl.S)
   * Creating subroutines to turn on, off, and toggle LED. Using Vitis Debugger to confirm program works
+* [**Project 2a**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p2_led_pwm.S)
+  * Passing parameters through subroutines that can take input and write to LED
+* [**Project 2a**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p3_led_sub_pwm.S)
+  * Control led brightness using software PWM subroutine
+* [**Project 2a**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p4_rgb_pwm.S)
+  * Control RGB using hardware PWM with input handling
