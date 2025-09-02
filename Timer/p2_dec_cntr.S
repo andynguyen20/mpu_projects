@@ -6,6 +6,8 @@
 .equ SVN_SEG_DATA3, 0x43C10006
 .equ SVN_SEG_DATA4, 0x43C10007
 .equ SVN_SEG_CNTL, 0x43C10000
+.equ SW_DATA, 0x41220000
+.equ BTN_DATA, 0x41200000
 
 main:
 	ldr r9, =SVN_SEG_CNTL
@@ -15,6 +17,7 @@ main:
 	mov r2, #0
 	mov r3, #0
 	mov r4, #0
+	
 
 digit_ones:
 	cmp r1, #9
@@ -79,3 +82,4 @@ delay:
 	subs r0,r0,#1
 	bne delay
 	bx lr
+
