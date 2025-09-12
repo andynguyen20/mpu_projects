@@ -1,9 +1,5 @@
 ﻿This repository contains the microprocessor projects using the single-core ARM Cortex-A9 processor, where I learn to use Vitis, write ARM assembly programs, use the ARM interrupt system, and write C code to access on-chip peripherals. 
 
-## File Formatting
-
-Just Assembly programs because Vitis .gitignore is nasty. 
-
 ## Part 1
 * [**Project 1a**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p1_sw_led.S)
   * Navigating Vitis, studying the ARM processor architecture and ARM Assembly, and mapping switches to leds
@@ -29,3 +25,4 @@ Just Assembly programs because Vitis .gitignore is nasty.
   * Control led brightness using software PWM subroutine
 * [**Project 2d**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p4_rgb_pwm.S)
   * Control RGB using hardware PWM with input handling
+
