@@ -1,28 +1,4 @@
 ﻿This repository contains the microprocessor projects using the single-core ARM Cortex-A9 processor, where I learn to use Vitis, write ARM assembly programs, use the ARM interrupt system, and write C code to access on-chip peripherals. 
 
-## Part 1
-* [**Project 1a**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p1_sw_led.S)
-  * Navigating Vitis, studying the ARM processor architecture and ARM Assembly, and mapping switches to leds
-* [**Project 1b**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p2_sw_inv.S)
-  *  Negate the led signals from the switches
-* [**Project 1c**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p3_btn_led.S)
-  * Connecting to pushbuttons to turn on leds
-* [**Project 1d**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p4_led_cmp.S)
-  *  Illuminate first LED when the value of the switches is equal to my age(20), and the second LED if all switches are ‘1’.
-* [**Project 1e**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p5_led_rng.S)
-  *  Illuminate leds in correspondence to range of switches treated as binary values. (0-3) -> led0 | (4-7) -> led1 | (8-11) -> led2 | (12-15) -> led3 
-* [**Project 1f**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p6_sw_btn_led.S)
-  *  Use both switches and pushbuttons to turn on leds
-* [**Project 1g**](https://github.com/andynguyen20/mpu_projects/blob/main/LED/p7_btn_latch.S)
-  *  Treat the first 8 switches as binary values and use a a pushbutton as an enable to latch values onto led
 
-## Part 2
-* [**Project 2a**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p1_led_ctl.S)
-  * Creating subroutines to turn on, off, and toggle LED. Using Vitis Debugger to confirm program works
-* [**Project 2b**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p2_led_pwm.S)
-  * Passing parameters through subroutines that can take input and write to LED
-* [**Project 2c**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p3_led_sub_pwm.S)
-  * Control led brightness using software PWM subroutine
-* [**Project 2d**](https://github.com/andynguyen20/mpu_projects/blob/main/PWM/p4_rgb_pwm.S)
-  * Control RGB using hardware PWM with input handling
 
